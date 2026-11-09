@@ -9,19 +9,37 @@ I like creating useful software that combines thoughtful workflows, reliable bac
 ## Featured projects
 
 ### [MerchantAssist](https://github.com/ArjunReddyVelma/merchantassist) · [Live demo](https://magicpin-frontend.onrender.com)
-AI-assisted support workspace for merchants. Built with **FastAPI, React, TypeScript, and PostgreSQL**, it grounds responses in merchant-managed policies and lets merchants review AI-generated reply drafts before use.
+
+- Built a merchant-support platform with FastAPI, React, TypeScript, and PostgreSQL, with conversations grounded in merchant-managed policies.
+- Implemented secure merchant accounts, context management, persistent conversations, retry handling, and human review of AI-generated reply drafts.
+- Documented verification: **85 frontend tests** and **7 chat-to-action integration tests**.
 
 ### [ChargebackGuard](https://github.com/ArjunReddyVelma/ChargebackGuard)
-Explainable payment risk analysis that combines deterministic rules with AI reasoning. It highlights the signals behind a risk assessment and routes uncertain cases to a human review queue.
+
+- Developed a payment-risk workflow combining deterministic rules with Gemini-based reasoning and plain-language explanations.
+- Added multi-signal risk checks, false-positive and false-negative cost estimates, and an append-only audit trail for analyst decisions.
+- Configured score bands for automatic clearance and human review; high-risk scoring requires at least **2 corroborating signals**.
 
 ### [Cold Call Companion](https://github.com/ArjunReddyVelma/cold-call-companion) · [Live app](https://cold-call-companion-three.vercel.app)
-A sales call companion built with **FastAPI, React, TypeScript, and Supabase**. It guides calls through structured stages, records outcomes and prospect notes, and creates post-call summaries.
+
+- Built a sales-call companion with FastAPI, React, TypeScript, and Supabase, guiding calls through **8 stages**.
+- Added quick outcome logging, verbatim prospect notes, searchable call history, and append-only history when stages are revisited.
+- Preserved **10 distinct call outcomes** and generated structured post-call summaries from recorded call data.
+- README reports **31 backend tests passed (1 skipped)** and **21 frontend tests passed**.
 
 ### [CampusHub](https://github.com/ArjunReddyVelma/CampusHub)
-A full-stack university platform for assessments, hackathons, team submissions, judging, and administration, with role-based workflows for students, professors, judges, club admins, and administrators.
+
+- Built a university platform with workflows for **5 roles**: students, professors, club admins, judges, and administrators.
+- Developed REST APIs for quizzes, hackathons, teams, submissions, judging, announcements, notifications, and search.
+- Implemented JWT authentication, role-based access control, protected routes, and forced first-login password changes.
+- Recorded QA result: **13/13 suites passed**; reduced the frontend entry bundle from **478 KB to 303 KB**.
 
 ### [Zepto Catalog Benchmark](https://github.com/ArjunReddyVelma/zepto_catalog_benchmark)
-A capstone combining a data pipeline, exploratory analysis and predictive modeling, plus a retrieval-based AI support assistant.
+
+- Built a **3-part** capstone covering data ingestion, predictive analytics, and an AI support assistant.
+- Processed **69 books across 3 categories** and normalized the data into related SQLite tables.
+- Developed analysis and model-tuning workflows with scikit-learn, including stratified splits, GridSearchCV, and SMOTE.
+- Created a local retrieval assistant using sentence-transformer embeddings, ChromaDB, and a **3-node LangGraph** workflow.
 
 ## Technologies
 
