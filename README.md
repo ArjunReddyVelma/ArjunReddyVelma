@@ -14,11 +14,12 @@ I like creating useful software that combines thoughtful workflows, reliable bac
 - Implemented secure merchant accounts, context management, persistent conversations, retry handling, and human review of AI-generated reply drafts.
 - Documented verification: **85 frontend tests** and **7 chat-to-action integration tests**.
 
-### [ChargebackGuard](https://github.com/ArjunReddyVelma/ChargebackGuard)
+### [CampusHub](https://github.com/ArjunReddyVelma/CampusHub)
 
-- Developed a payment-risk workflow combining deterministic rules with Gemini-based reasoning and plain-language explanations.
-- Added multi-signal risk checks, false-positive and false-negative cost estimates, and an append-only audit trail for analyst decisions.
-- Configured score bands for automatic clearance and human review; high-risk scoring requires at least **2 corroborating signals**.
+- Built a university platform with workflows for **5 roles**: students, professors, club admins, judges, and administrators.
+- Developed REST APIs for quizzes, hackathons, teams, submissions, judging, announcements, notifications, and search.
+- Implemented JWT authentication, role-based access control, protected routes, and forced first-login password changes.
+- Recorded QA result: **13/13 suites passed**; reduced the frontend entry bundle from **478 KB to 303 KB**.
 
 ### [Cold Call Companion](https://github.com/ArjunReddyVelma/cold-call-companion) · [Live app](https://cold-call-companion-three.vercel.app)
 
@@ -27,12 +28,11 @@ I like creating useful software that combines thoughtful workflows, reliable bac
 - Preserved **10 distinct call outcomes** and generated structured post-call summaries from recorded call data.
 - README reports **31 backend tests passed (1 skipped)** and **21 frontend tests passed**.
 
-### [CampusHub](https://github.com/ArjunReddyVelma/CampusHub)
+### [ChargebackGuard](https://github.com/ArjunReddyVelma/ChargebackGuard)
 
-- Built a university platform with workflows for **5 roles**: students, professors, club admins, judges, and administrators.
-- Developed REST APIs for quizzes, hackathons, teams, submissions, judging, announcements, notifications, and search.
-- Implemented JWT authentication, role-based access control, protected routes, and forced first-login password changes.
-- Recorded QA result: **13/13 suites passed**; reduced the frontend entry bundle from **478 KB to 303 KB**.
+- Developed a payment-risk workflow combining deterministic rules with Gemini-based reasoning and plain-language explanations.
+- Added multi-signal risk checks, false-positive and false-negative cost estimates, and an append-only audit trail for analyst decisions.
+- Configured score bands for automatic clearance and human review; high-risk scoring requires at least **2 corroborating signals**.
 
 ### [Zepto Catalog Benchmark](https://github.com/ArjunReddyVelma/zepto_catalog_benchmark)
 
